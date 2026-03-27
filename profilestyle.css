@@ -1,0 +1,100 @@
+
+
+
+      body {
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        font-family: Arial, sans-serif;
+        margin: 0;
+
+    }
+    .sidebar {
+        width: 17%;
+        background-color: #070b10;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        height: 100vh;
+        position: fixed;
+    }
+    .sidebar a {
+        display: block;
+        color: #000;
+        padding: 15px;
+        text-decoration: none;
+        margin-bottom: 10px;
+        border-radius: 4px;
+    }
+    .sidebar a:hover {
+        background-color: #e2e6ea;
+    }
+
+    .vertical-line {
+        height: 100px; /* Adjust height as needed */
+        width: 1px; /* Width of the line */
+        background-color: #f70909;
+        margin-top: 1000px; /* Color of the line */
+    }
+    .main-content {
+        margin-left: 20%;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .profile-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .option-btn {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
+    
+    .option-btn:hover {
+        background-color: #0056b3;
+    }
+    
+    .option-btn i {
+        margin-right: 5px;
+    }
+    
+    .profile-btn {
+        background-color: #28a745;
+    }
+    
+    .orders-btn {
+        background-color: #ffc107;
+    }
+    
+    .bookings-btn {
+        background-color: #17a2b8;
+    }
+    
+    .inquiries-btn {
+        background-color: #dc3545;
+    }
+    
+    .rent-btn {
+        background-color: #6610f2;
+    }
+    
+    .event-btn {
+        background-color: #6c757d;
+    }
+    
+    .estimate-btn {
+        background-color: #fd7e14;
+    }
+    
+
+  
